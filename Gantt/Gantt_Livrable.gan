@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Livrable 1" company="" webLink="http://" view-date="2024-08-26" view-index="0" gantt-divider-location="351" resource-divider-location="300" version="3.3.3312" locale="fr_FR">
+    <description/>
+    <view zooming-state="default:7" id="gantt-chart">
+        <field id="tpd3" name="Nom" width="200" order="0"/>
+        <field id="tpd4" name="Date de début" width="75" order="1"/>
+        <field id="tpd5" name="Date de fin" width="75" order="2"/>
+        <field id="tpd15" name="Notes" width="20" order="3"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="filter.dueTodayTasks" value="false"/>
+        <option id="filter.overdueTasks" value="false"/>
+        <option id="filter.inProgressTodayTasks" value="false"/>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nom" width="210" order="0"/>
+        <field id="1" name="Rôle par défaut" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" uid="cbefa49cea9040c6b209d5bfe6b5eda4" name="Création livrable 1" meeting="false" start="2024-08-27" duration="47" complete="0" expand="true">
+            <task id="1" uid="8a54c7f958954be89dcfddf357f89c48" name="Lecture et compréhension du cahier des charges" meeting="false" start="2024-08-27" duration="1" complete="0" expand="true"/>
+            <task id="2" uid="76b93e9f4fbb497ebb61b029b31b2296" name="Définition des objectifs et analyse des besoins" meeting="false" start="2024-08-27" duration="1" complete="0" expand="true"/>
+            <task id="21" uid="519c80180eca4ffc835034149daf1968" name="Créations des premières VM et VPN" color="#8cb6ce" meeting="false" start="2024-09-06" duration="1" complete="0" expand="true"/>
+            <task id="20" uid="bc63a9ce2f4847dbbb4785d9cc31b6a0" name="Diagramme de Gantt et Livrable 1" color="#8cb6ce" meeting="false" start="2024-10-09" duration="1" complete="0" expand="true"/>
+            <task id="19" uid="03f9dcd2d84a4d76919c564c986ff590" name="Budget prévisionnel et finalisation du livrable 1" color="#8cb6ce" meeting="false" start="2024-10-30" duration="1" complete="0" expand="true"/>
+        </task>
+        <task id="23" uid="b7c0ce64802c4e3088314c0a5f89f1f8" name="Oral 1" color="#000000" meeting="false" start="2024-11-07" duration="1" complete="0" expand="true"/>
+        <task id="24" uid="a56e451a19da47b2ae05065d8b5d58ff" name="Phase d'installation" meeting="false" start="2024-11-08" duration="38" complete="0" expand="true">
+            <task id="25" uid="e22e406f93eb414fa13cfe463351e662" name="Mise en place des serveurs sur Mulhouse et Strasbourg" meeting="false" start="2024-11-08" duration="3" complete="0" expand="true"/>
+            <task id="26" uid="f41d45df980349be91fb69ac35ef278e" name="Dernière vérification du VPN" color="#8cb6ce" meeting="false" start="2024-11-12" duration="1" complete="0" expand="true"/>
+            <task id="27" uid="ff7a22dc9b43450cade97af7a79c022e" name="Création du DFS/DFSR" color="#8cb6ce" meeting="false" start="2024-11-13" duration="2" complete="0" expand="true"/>
+            <task id="28" uid="1424e6bfbd1c4d9aabbd2fd8338bcc78" name="Création de la sauvegarde et shadow copy" color="#8cb6ce" meeting="false" start="2024-11-15" duration="2" complete="0" expand="true"/>
+            <task id="29" uid="812ecaa6a43a4cbbad43f10d7ef4ead7" name="Vérification technique et correction des potentiels problèmes" meeting="false" start="2024-11-20" duration="10" complete="0" expand="true"/>
+            <task id="30" uid="fac159fad0244089a2fad7f92c6a3ee4" name="Démonstration technique" color="#8cb6ce" meeting="false" start="2024-12-12" duration="1" complete="0" expand="true"/>
+            <task id="31" uid="13016846eac545c0a973ef99342cc16b" name="Création des documentations si non faite et mise à jour dans le livrable" color="#8cb6ce" meeting="false" start="2024-12-16" duration="5" complete="0" expand="true"/>
+            <task id="32" uid="86df5e2fe9fc4107bec83ab46c583fab" name="Livrable 2" meeting="false" start="2024-12-31" duration="1" complete="0" expand="true"/>
+        </task>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>

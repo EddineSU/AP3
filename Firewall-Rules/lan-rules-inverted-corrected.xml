@@ -1,0 +1,1458 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<filter>
+	<rule>
+		<id/>
+		<tracker>1733318713</tracker>
+		<type>pass</type>
+		<interface>lan</interface>
+		<ipprotocol>inet</ipprotocol>
+		<tag/>
+		<tagged/>
+		<max/>
+		<max-src-nodes/>
+		<max-src-conn/>
+		<max-src-states/>
+		<statetimeout/>
+		<statetype>keep state</statetype>
+		<os/>
+		<destination><address>192.168.100.100/24</address>
+		</destination><source><any/>
+		</source><descr>UPnP</descr>
+		<created>
+			<time>1733318713</time>
+			<username>admin@192.168.100.1 (Local Database)</username>
+		</created>
+		<updated>
+			<time>1733319016</time>
+			<username>admin@192.168.100.1 (Local Database)</username>
+		</updated>
+		<disabled/>
+	</rule>
+	<rule>
+		<id/>
+		<tracker>1733317815</tracker>
+		<type>pass</type>
+		<interface>lan</interface>
+		<ipprotocol>inet</ipprotocol>
+		<tag/>
+		<tagged/>
+		<max/>
+		<max-src-nodes/>
+		<max-src-conn/>
+		<max-src-states/>
+		<statetimeout/>
+		<statetype>keep state</statetype>
+		<os/>
+		<protocol>tcp/udp</protocol>
+		<destination><address>192.168.100.0/24</address>
+		</destination><source><address>192.168.200.0/24</address>
+			<port>5985</port>
+		</source><descr>WinRM</descr>
+		<created>
+			<time>1733317815</time>
+			<username>admin@192.168.100.1 (Local Database)</username>
+		</created>
+		<updated>
+			<time>1733318031</time>
+			<username>admin@192.168.100.1 (Local Database)</username>
+		</updated>
+	</rule>
+	<rule>
+		<id/>
+		<tracker>1733317832</tracker>
+		<type>pass</type>
+		<interface>lan</interface>
+		<ipprotocol>inet</ipprotocol>
+		<tag/>
+		<tagged/>
+		<max/>
+		<max-src-nodes/>
+		<max-src-conn/>
+		<max-src-states/>
+		<statetimeout/>
+		<statetype>keep state</statetype>
+		<os/>
+		<protocol>tcp/udp</protocol>
+		<destination><address>192.168.100.0/24</address>
+		</destination><source><address>192.168.100.0/24</address>
+			<port>5985</port>
+		</source><descr>WinRM</descr>
+		<created>
+			<time>1733317832</time>
+			<username>admin@192.168.100.1 (Local Database)</username>
+		</created>
+		<updated>
+			<time>1733318021</time>
+			<username>admin@192.168.100.1 (Local Database)</username>
+		</updated>
+	</rule>
+	<rule>
+		<id/>
+		<tracker>1733821131</tracker>
+		<type>pass</type>
+		<interface>lan</interface>
+		<ipprotocol>inet</ipprotocol>
+		<tag/>
+		<tagged/>
+		<max/>
+		<max-src-nodes/>
+		<max-src-conn/>
+		<max-src-states/>
+		<statetimeout/>
+		<statetype>keep state</statetype>
+		<os/>
+		<protocol>tcp/udp</protocol>
+		<destination><address>192.168.200.0/24</address>
+		</destination><source><address>192.168.100.0/24</address>
+			<port>5985</port>
+		</source><descr>WinRM</descr>
+		<updated>
+			<time>1733821131</time>
+			<username>admin@192.168.200.1 (Local Database)</username>
+		</updated>
+		<created>
+			<time>1733821131</time>
+			<username>admin@192.168.200.1 (Local Database)</username>
+		</created>
+	</rule>
+	<rule>
+		<id/>
+		<tracker>1733317102</tracker>
+		<type>pass</type>
+		<interface>lan</interface>
+		<ipprotocol>inet</ipprotocol>
+		<tag/>
+		<tagged/>
+		<max/>
+		<max-src-nodes/>
+		<max-src-conn/>
+		<max-src-states/>
+		<statetimeout/>
+		<statetype>keep state</statetype>
+		<os/>
+		<protocol>udp</protocol>
+		<destination><address>192.168.100.0/24</address>
+		</destination><source><any/>
+			<port>123</port>
+		</source><descr>NTP</descr>
+		<updated>
+			<time>1733317102</time>
+			<username>admin@192.168.100.1 (Local Database)</username>
+		</updated>
+		<created>
+			<time>1733317102</time>
+			<username>admin@192.168.100.1 (Local Database)</username>
+		</created>
+	</rule>
+	<rule>
+		<id/>
+		<tracker>1728313218</tracker>
+		<type>pass</type>
+		<interface>lan</interface>
+		<ipprotocol>inet</ipprotocol>
+		<tag/>
+		<tagged/>
+		<max/>
+		<max-src-nodes/>
+		<max-src-conn/>
+		<max-src-states/>
+		<statetimeout/>
+		<statetype>keep state</statetype>
+		<os/>
+		<protocol>tcp/udp</protocol>
+		<destination><address>192.168.100.0/24</address>
+		</destination><source><address>192.168.100.0/24</address>
+			<port>53</port>
+		</source><descr>DNS</descr>
+		<updated>
+			<time>1728313218</time>
+			<username>admin@192.168.100.1 (Local Database)</username>
+		</updated>
+		<created>
+			<time>1728313218</time>
+			<username>admin@192.168.100.1 (Local Database)</username>
+		</created>
+	</rule>
+	<rule>
+		<id/>
+		<tracker>1728313191</tracker>
+		<type>pass</type>
+		<interface>lan</interface>
+		<ipprotocol>inet</ipprotocol>
+		<tag/>
+		<tagged/>
+		<max/>
+		<max-src-nodes/>
+		<max-src-conn/>
+		<max-src-states/>
+		<statetimeout/>
+		<statetype>keep state</statetype>
+		<os/>
+		<protocol>tcp/udp</protocol>
+		<destination><address>192.168.200.0/24</address>
+		</destination><source><address>192.168.100.0/24</address>
+			<port>53</port>
+		</source><descr>DNS MUL to STG</descr>
+		<updated>
+			<time>1728313191</time>
+			<username>admin@192.168.100.1 (Local Database)</username>
+		</updated>
+		<created>
+			<time>1728313191</time>
+			<username>admin@192.168.100.1 (Local Database)</username>
+		</created>
+	</rule>
+	<rule>
+		<id/>
+		<tracker>1733317153</tracker>
+		<type>pass</type>
+		<interface>lan</interface>
+		<ipprotocol>inet</ipprotocol>
+		<tag/>
+		<tagged/>
+		<max/>
+		<max-src-nodes/>
+		<max-src-conn/>
+		<max-src-states/>
+		<statetimeout/>
+		<statetype>keep state</statetype>
+		<os/>
+		<protocol>tcp/udp</protocol>
+		<destination><address>192.168.100.0/24</address>
+		</destination><source><address>192.168.200.0/24</address>
+			<port>53</port>
+		</source><descr>DNS STG to MUL</descr>
+		<updated>
+			<time>1733317153</time>
+			<username>admin@192.168.100.1 (Local Database)</username>
+		</updated>
+		<created>
+			<time>1733317153</time>
+			<username>admin@192.168.100.1 (Local Database)</username>
+		</created>
+	</rule>
+	<rule>
+		<id/>
+		<tracker>1728313150</tracker>
+		<type>pass</type>
+		<interface>lan</interface>
+		<ipprotocol>inet</ipprotocol>
+		<tag/>
+		<tagged/>
+		<max/>
+		<max-src-nodes/>
+		<max-src-conn/>
+		<max-src-states/>
+		<statetimeout/>
+		<statetype>keep state</statetype>
+		<os/>
+		<protocol>udp</protocol>
+		<destination><address>192.168.100.0/24</address>
+		</destination><source><address>192.168.100.0/24</address>
+			<port>67</port>
+		</source><descr>DHCP STG SERVEUR</descr>
+		<updated>
+			<time>1728313150</time>
+			<username>admin@192.168.100.1 (Local Database)</username>
+		</updated>
+		<created>
+			<time>1728313150</time>
+			<username>admin@192.168.100.1 (Local Database)</username>
+		</created>
+	</rule>
+	<rule>
+		<id/>
+		<tracker>1728313085</tracker>
+		<type>pass</type>
+		<interface>lan</interface>
+		<ipprotocol>inet</ipprotocol>
+		<tag/>
+		<tagged/>
+		<max/>
+		<max-src-nodes/>
+		<max-src-conn/>
+		<max-src-states/>
+		<statetimeout/>
+		<statetype>keep state</statetype>
+		<os/>
+		<protocol>udp</protocol>
+		<destination><address>192.168.100.0/24</address>
+		</destination><source><address>192.168.100.0/24</address>
+			<port>68</port>
+		</source><descr>DHCP STG CLIENT</descr>
+		<updated>
+			<time>1728313085</time>
+			<username>admin@192.168.100.1 (Local Database)</username>
+		</updated>
+		<created>
+			<time>1728313085</time>
+			<username>admin@192.168.100.1 (Local Database)</username>
+		</created>
+	</rule>
+	<rule>
+		<id/>
+		<tracker>1733318204</tracker>
+		<type>pass</type>
+		<interface>lan</interface>
+		<ipprotocol>inet</ipprotocol>
+		<tag/>
+		<tagged/>
+		<max/>
+		<max-src-nodes/>
+		<max-src-conn/>
+		<max-src-states/>
+		<statetimeout/>
+		<statetype>keep state</statetype>
+		<os/>
+		<protocol>tcp/udp</protocol>
+		<destination><address>192.168.100.0/24</address>
+		</destination><source><address>192.168.200.0/24</address>
+			<port>389</port>
+		</source><descr>LDAP</descr>
+		<updated>
+			<time>1733318204</time>
+			<username>admin@192.168.100.1 (Local Database)</username>
+		</updated>
+		<created>
+			<time>1733318204</time>
+			<username>admin@192.168.100.1 (Local Database)</username>
+		</created>
+	</rule>
+	<rule>
+		<id/>
+		<tracker>1728313031</tracker>
+		<type>pass</type>
+		<interface>lan</interface>
+		<ipprotocol>inet</ipprotocol>
+		<tag/>
+		<tagged/>
+		<max/>
+		<max-src-nodes/>
+		<max-src-conn/>
+		<max-src-states/>
+		<statetimeout/>
+		<statetype>keep state</statetype>
+		<os/>
+		<protocol>tcp/udp</protocol>
+		<destination><address>192.168.100.0/24</address>
+		</destination><source><address>192.168.100.0/24</address>
+			<port>389</port>
+		</source><descr>LDAP</descr>
+		<updated>
+			<time>1728313031</time>
+			<username>admin@192.168.100.1 (Local Database)</username>
+		</updated>
+		<created>
+			<time>1728313031</time>
+			<username>admin@192.168.100.1 (Local Database)</username>
+		</created>
+	</rule>
+	<rule>
+		<id/>
+		<tracker>1728312999</tracker>
+		<type>pass</type>
+		<interface>lan</interface>
+		<ipprotocol>inet</ipprotocol>
+		<tag/>
+		<tagged/>
+		<max/>
+		<max-src-nodes/>
+		<max-src-conn/>
+		<max-src-states/>
+		<statetimeout/>
+		<statetype>keep state</statetype>
+		<os/>
+		<protocol>tcp/udp</protocol>
+		<destination><address>192.168.200.0/24</address>
+		</destination><source><address>192.168.100.0/24</address>
+			<port>389</port>
+		</source><descr>LDAP MUL to STG</descr>
+		<updated>
+			<time>1728312999</time>
+			<username>admin@192.168.100.1 (Local Database)</username>
+		</updated>
+		<created>
+			<time>1728312999</time>
+			<username>admin@192.168.100.1 (Local Database)</username>
+		</created>
+	</rule>
+	<rule>
+		<id/>
+		<tracker>1728312963</tracker>
+		<type>pass</type>
+		<interface>lan</interface>
+		<ipprotocol>inet</ipprotocol>
+		<tag/>
+		<tagged/>
+		<max/>
+		<max-src-nodes/>
+		<max-src-conn/>
+		<max-src-states/>
+		<statetimeout/>
+		<statetype>keep state</statetype>
+		<os/>
+		<protocol>tcp/udp</protocol>
+		<destination><address>192.168.100.0/24</address>
+		</destination><source><address>192.168.100.0/24</address>
+			<port>88</port>
+		</source><descr>KERBEROS</descr>
+		<updated>
+			<time>1728312963</time>
+			<username>admin@192.168.100.1 (Local Database)</username>
+		</updated>
+		<created>
+			<time>1728312963</time>
+			<username>admin@192.168.100.1 (Local Database)</username>
+		</created>
+	</rule>
+	<rule>
+		<id/>
+		<tracker>1733821064</tracker>
+		<type>pass</type>
+		<interface>lan</interface>
+		<ipprotocol>inet</ipprotocol>
+		<tag/>
+		<tagged/>
+		<max/>
+		<max-src-nodes/>
+		<max-src-conn/>
+		<max-src-states/>
+		<statetimeout/>
+		<statetype>keep state</statetype>
+		<os/>
+		<protocol>tcp/udp</protocol>
+		<destination><address>192.168.100.0/24</address>
+		</destination><source><address>192.168.200.0/24</address>
+			<port>88</port>
+		</source><descr>KERBEROS</descr>
+		<updated>
+			<time>1733821064</time>
+			<username>admin@192.168.200.1 (Local Database)</username>
+		</updated>
+		<created>
+			<time>1733821064</time>
+			<username>admin@192.168.200.1 (Local Database)</username>
+		</created>
+	</rule>
+	<rule>
+		<id/>
+		<tracker>1728312932</tracker>
+		<type>pass</type>
+		<interface>lan</interface>
+		<ipprotocol>inet</ipprotocol>
+		<tag/>
+		<tagged/>
+		<max/>
+		<max-src-nodes/>
+		<max-src-conn/>
+		<max-src-states/>
+		<statetimeout/>
+		<statetype>keep state</statetype>
+		<os/>
+		<protocol>tcp/udp</protocol>
+		<destination><address>192.168.200.0/24</address>
+		</destination><source><address>192.168.100.0/24</address>
+			<port>88</port>
+		</source><descr>KERBEROS MUL TO STG</descr>
+		<updated>
+			<time>1728312932</time>
+			<username>admin@192.168.100.1 (Local Database)</username>
+		</updated>
+		<created>
+			<time>1728312932</time>
+			<username>admin@192.168.100.1 (Local Database)</username>
+		</created>
+	</rule>
+	<rule>
+		<id/>
+		<tracker>1728312854</tracker>
+		<type>pass</type>
+		<interface>lan</interface>
+		<ipprotocol>inet</ipprotocol>
+		<tag/>
+		<tagged/>
+		<max/>
+		<max-src-nodes/>
+		<max-src-conn/>
+		<max-src-states/>
+		<statetimeout/>
+		<statetype>keep state</statetype>
+		<os/>
+		<protocol>tcp/udp</protocol>
+		<destination><address>192.168.100.0/24</address>
+		</destination><source><address>192.168.100.0/24</address>
+			<port>135</port>
+		</source><descr>RPC</descr>
+		<updated>
+			<time>1728312854</time>
+			<username>admin@192.168.100.1 (Local Database)</username>
+		</updated>
+		<created>
+			<time>1728312854</time>
+			<username>admin@192.168.100.1 (Local Database)</username>
+		</created>
+	</rule>
+	<rule>
+		<id/>
+		<tracker>1728312806</tracker>
+		<type>pass</type>
+		<interface>lan</interface>
+		<ipprotocol>inet</ipprotocol>
+		<tag/>
+		<tagged/>
+		<max/>
+		<max-src-nodes/>
+		<max-src-conn/>
+		<max-src-states/>
+		<statetimeout/>
+		<statetype>keep state</statetype>
+		<os/>
+		<protocol>tcp/udp</protocol>
+		<destination><address>192.168.200.0/24</address>
+		</destination><source><address>192.168.100.0/24</address>
+			<port>135</port>
+		</source><descr>RPC MUL to STG</descr>
+		<updated>
+			<time>1728312806</time>
+			<username>admin@192.168.100.1 (Local Database)</username>
+		</updated>
+		<created>
+			<time>1728312806</time>
+			<username>admin@192.168.100.1 (Local Database)</username>
+		</created>
+	</rule>
+	<rule>
+		<id/>
+		<tracker>1733315719</tracker>
+		<type>pass</type>
+		<interface>lan</interface>
+		<ipprotocol>inet</ipprotocol>
+		<tag/>
+		<tagged/>
+		<max/>
+		<max-src-nodes/>
+		<max-src-conn/>
+		<max-src-states/>
+		<statetimeout/>
+		<statetype>keep state</statetype>
+		<os/>
+		<protocol>tcp/udp</protocol>
+		<destination><address>192.168.100.0/24</address>
+		</destination><source><address>192.168.200.0/24</address>
+			<port>135</port>
+		</source><descr>RPC STG to MUL</descr>
+		<created>
+			<time>1733315719</time>
+			<username>admin@192.168.100.1 (Local Database)</username>
+		</created>
+		<updated>
+			<time>1733315733</time>
+			<username>admin@192.168.100.1 (Local Database)</username>
+		</updated>
+	</rule>
+	<rule>
+		<id/>
+		<tracker>1728312748</tracker>
+		<type>pass</type>
+		<interface>lan</interface>
+		<ipprotocol>inet</ipprotocol>
+		<tag/>
+		<tagged/>
+		<max/>
+		<max-src-nodes/>
+		<max-src-conn/>
+		<max-src-states/>
+		<statetimeout/>
+		<statetype>keep state</statetype>
+		<os/>
+		<protocol>tcp/udp</protocol>
+		<destination><address>192.168.100.0/24</address>
+		</destination><source><address>192.168.100.0/24</address>
+			<port>49152-65535</port>
+		</source><descr>RPC Dynamic</descr>
+		<updated>
+			<time>1728312748</time>
+			<username>admin@192.168.100.1 (Local Database)</username>
+		</updated>
+		<created>
+			<time>1728312748</time>
+			<username>admin@192.168.100.1 (Local Database)</username>
+		</created>
+	</rule>
+	<rule>
+		<id/>
+		<tracker>1728042321</tracker>
+		<type>pass</type>
+		<interface>lan</interface>
+		<ipprotocol>inet</ipprotocol>
+		<tag/>
+		<tagged/>
+		<max/>
+		<max-src-nodes/>
+		<max-src-conn/>
+		<max-src-states/>
+		<statetimeout/>
+		<statetype>keep state</statetype>
+		<os/>
+		<protocol>tcp/udp</protocol>
+		<destination><address>192.168.200.0/24</address>
+		</destination><source><address>192.168.100.0/24</address>
+			<port>49152-65535</port>
+		</source><descr>RPC Dynamic MUL to STG</descr>
+		<updated>
+			<time>1728042321</time>
+			<username>admin@192.168.100.1 (Local Database)</username>
+		</updated>
+		<created>
+			<time>1728042321</time>
+			<username>admin@192.168.100.1 (Local Database)</username>
+		</created>
+	</rule>
+	<rule>
+		<id/>
+		<tracker>1733315913</tracker>
+		<type>pass</type>
+		<interface>lan</interface>
+		<ipprotocol>inet</ipprotocol>
+		<tag/>
+		<tagged/>
+		<max/>
+		<max-src-nodes/>
+		<max-src-conn/>
+		<max-src-states/>
+		<statetimeout/>
+		<statetype>keep state</statetype>
+		<os/>
+		<protocol>tcp/udp</protocol>
+		<destination><address>192.168.100.0/24</address>
+		</destination><source><address>192.168.200.0/24</address>
+			<port>49152-65535</port>
+		</source><descr>RPC Dynamic STG to MUL</descr>
+		<updated>
+			<time>1733315913</time>
+			<username>admin@192.168.100.1 (Local Database)</username>
+		</updated>
+		<created>
+			<time>1733315913</time>
+			<username>admin@192.168.100.1 (Local Database)</username>
+		</created>
+	</rule>
+	<rule>
+		<id/>
+		<tracker>1728042149</tracker>
+		<type>pass</type>
+		<interface>lan</interface>
+		<ipprotocol>inet</ipprotocol>
+		<tag/>
+		<tagged/>
+		<max/>
+		<max-src-nodes/>
+		<max-src-conn/>
+		<max-src-states/>
+		<statetimeout/>
+		<statetype>keep state</statetype>
+		<os/>
+		<protocol>tcp/udp</protocol>
+		<destination><address>192.168.100.0/24</address>
+		</destination><source><address>192.168.100.0/24</address>
+			<port>3268</port>
+		</source><descr>Global Catalog</descr>
+		<updated>
+			<time>1728042149</time>
+			<username>admin@192.168.100.1 (Local Database)</username>
+		</updated>
+		<created>
+			<time>1728042149</time>
+			<username>admin@192.168.100.1 (Local Database)</username>
+		</created>
+	</rule>
+	<rule>
+		<id/>
+		<tracker>1733821035</tracker>
+		<type>pass</type>
+		<interface>lan</interface>
+		<ipprotocol>inet</ipprotocol>
+		<tag/>
+		<tagged/>
+		<max/>
+		<max-src-nodes/>
+		<max-src-conn/>
+		<max-src-states/>
+		<statetimeout/>
+		<statetype>keep state</statetype>
+		<os/>
+		<protocol>tcp/udp</protocol>
+		<destination><address>192.168.100.0/24</address>
+		</destination><source><address>192.168.200.0/24</address>
+			<port>3268</port>
+		</source><descr>Global Catalog</descr>
+		<updated>
+			<time>1733821035</time>
+			<username>admin@192.168.200.1 (Local Database)</username>
+		</updated>
+		<created>
+			<time>1733821035</time>
+			<username>admin@192.168.200.1 (Local Database)</username>
+		</created>
+	</rule>
+	<rule>
+		<id/>
+		<tracker>1728042097</tracker>
+		<type>pass</type>
+		<interface>lan</interface>
+		<ipprotocol>inet</ipprotocol>
+		<tag/>
+		<tagged/>
+		<max/>
+		<max-src-nodes/>
+		<max-src-conn/>
+		<max-src-states/>
+		<statetimeout/>
+		<statetype>keep state</statetype>
+		<os/>
+		<protocol>tcp/udp</protocol>
+		<destination><address>192.168.200.0/24</address>
+		</destination><source><address>192.168.100.0/24</address>
+			<port>3268</port>
+		</source><descr>Global Catalog MUL to STG</descr>
+		<updated>
+			<time>1728042097</time>
+			<username>admin@192.168.100.1 (Local Database)</username>
+		</updated>
+		<created>
+			<time>1728042097</time>
+			<username>admin@192.168.100.1 (Local Database)</username>
+		</created>
+	</rule>
+	<rule>
+		<id/>
+		<tracker>1728042031</tracker>
+		<type>pass</type>
+		<interface>lan</interface>
+		<ipprotocol>inet</ipprotocol>
+		<tag/>
+		<tagged/>
+		<max/>
+		<max-src-nodes/>
+		<max-src-conn/>
+		<max-src-states/>
+		<statetimeout/>
+		<statetype>keep state</statetype>
+		<os/>
+		<protocol>tcp</protocol>
+		<destination><address>192.168.100.0/24</address>
+		</destination><source><address>192.168.100.0/24</address>
+			<port>445</port>
+		</source><descr>SMB</descr>
+		<updated>
+			<time>1728042031</time>
+			<username>admin@192.168.100.1 (Local Database)</username>
+		</updated>
+		<created>
+			<time>1728042031</time>
+			<username>admin@192.168.100.1 (Local Database)</username>
+		</created>
+	</rule>
+	<rule>
+		<id/>
+		<tracker>1733820979</tracker>
+		<type>pass</type>
+		<interface>lan</interface>
+		<ipprotocol>inet</ipprotocol>
+		<tag/>
+		<tagged/>
+		<max/>
+		<max-src-nodes/>
+		<max-src-conn/>
+		<max-src-states/>
+		<statetimeout/>
+		<statetype>keep state</statetype>
+		<os/>
+		<protocol>tcp</protocol>
+		<destination><address>192.168.100.0/24</address>
+		</destination><source><address>192.168.200.0/24</address>
+			<port>445</port>
+		</source><descr>SMB</descr>
+		<updated>
+			<time>1733820979</time>
+			<username>admin@192.168.200.1 (Local Database)</username>
+		</updated>
+		<created>
+			<time>1733820979</time>
+			<username>admin@192.168.200.1 (Local Database)</username>
+		</created>
+	</rule>
+	<rule>
+		<id/>
+		<tracker>1728041990</tracker>
+		<type>pass</type>
+		<interface>lan</interface>
+		<ipprotocol>inet</ipprotocol>
+		<tag/>
+		<tagged/>
+		<max/>
+		<max-src-nodes/>
+		<max-src-conn/>
+		<max-src-states/>
+		<statetimeout/>
+		<statetype>keep state</statetype>
+		<os/>
+		<protocol>tcp</protocol>
+		<destination><address>192.168.200.0/24</address>
+		</destination><source><address>192.168.100.0/24</address>
+			<port>445</port>
+		</source><descr>SMB MUL to STG</descr>
+		<updated>
+			<time>1728041990</time>
+			<username>admin@192.168.100.1 (Local Database)</username>
+		</updated>
+		<created>
+			<time>1728041990</time>
+			<username>admin@192.168.100.1 (Local Database)</username>
+		</created>
+	</rule>
+	<rule>
+		<id/>
+		<tracker>1733820998</tracker>
+		<type>pass</type>
+		<interface>lan</interface>
+		<ipprotocol>inet</ipprotocol>
+		<tag/>
+		<tagged/>
+		<max/>
+		<max-src-nodes/>
+		<max-src-conn/>
+		<max-src-states/>
+		<statetimeout/>
+		<statetype>keep state</statetype>
+		<os/>
+		<protocol>tcp</protocol>
+		<destination><address>192.168.200.0/24</address>
+		</destination><source><address>192.168.100.0/24</address>
+			<port>139</port>
+		</source><descr>SMB MUL to STG</descr>
+		<updated>
+			<time>1733820998</time>
+			<username>admin@192.168.200.1 (Local Database)</username>
+		</updated>
+		<created>
+			<time>1733820998</time>
+			<username>admin@192.168.200.1 (Local Database)</username>
+		</created>
+	</rule>
+	<rule>
+		<id/>
+		<tracker>1733821010</tracker>
+		<type>pass</type>
+		<interface>lan</interface>
+		<ipprotocol>inet</ipprotocol>
+		<tag/>
+		<tagged/>
+		<max/>
+		<max-src-nodes/>
+		<max-src-conn/>
+		<max-src-states/>
+		<statetimeout/>
+		<statetype>keep state</statetype>
+		<os/>
+		<protocol>tcp</protocol>
+		<destination><address>192.168.100.0/24</address>
+		</destination><source><address>192.168.100.0/24</address>
+			<port>139</port>
+		</source><descr>SMB MUL to STG</descr>
+		<updated>
+			<time>1733821010</time>
+			<username>admin@192.168.200.1 (Local Database)</username>
+		</updated>
+		<created>
+			<time>1733821010</time>
+			<username>admin@192.168.200.1 (Local Database)</username>
+		</created>
+	</rule>
+	<rule>
+		<id/>
+		<tracker>1733821022</tracker>
+		<type>pass</type>
+		<interface>lan</interface>
+		<ipprotocol>inet</ipprotocol>
+		<tag/>
+		<tagged/>
+		<max/>
+		<max-src-nodes/>
+		<max-src-conn/>
+		<max-src-states/>
+		<statetimeout/>
+		<statetype>keep state</statetype>
+		<os/>
+		<protocol>tcp</protocol>
+		<destination><address>192.168.100.0/24</address>
+		</destination><source><address>192.168.200.0/24</address>
+			<port>139</port>
+		</source><descr>SMB MUL to STG</descr>
+		<updated>
+			<time>1733821022</time>
+			<username>admin@192.168.200.1 (Local Database)</username>
+		</updated>
+		<created>
+			<time>1733821022</time>
+			<username>admin@192.168.200.1 (Local Database)</username>
+		</created>
+	</rule>
+	<rule>
+		<id/>
+		<tracker>1728041867</tracker>
+		<type>pass</type>
+		<interface>lan</interface>
+		<ipprotocol>inet</ipprotocol>
+		<tag/>
+		<tagged/>
+		<max/>
+		<max-src-nodes/>
+		<max-src-conn/>
+		<max-src-states/>
+		<statetimeout/>
+		<statetype>keep state</statetype>
+		<os/>
+		<protocol>tcp</protocol>
+		<destination><address>192.168.100.0/24</address>
+		</destination><source><address>192.168.100.0/24</address>
+			<port>5722</port>
+		</source><descr>DFSR</descr>
+		<updated>
+			<time>1728041867</time>
+			<username>admin@192.168.100.1 (Local Database)</username>
+		</updated>
+		<created>
+			<time>1728041867</time>
+			<username>admin@192.168.100.1 (Local Database)</username>
+		</created>
+	</rule>
+	<rule>
+		<id/>
+		<tracker>1733820963</tracker>
+		<type>pass</type>
+		<interface>lan</interface>
+		<ipprotocol>inet</ipprotocol>
+		<tag/>
+		<tagged/>
+		<max/>
+		<max-src-nodes/>
+		<max-src-conn/>
+		<max-src-states/>
+		<statetimeout/>
+		<statetype>keep state</statetype>
+		<os/>
+		<protocol>tcp</protocol>
+		<destination><address>192.168.100.0/24</address>
+		</destination><source><address>192.168.200.0/24</address>
+			<port>5722</port>
+		</source><descr>DFSR</descr>
+		<updated>
+			<time>1733820963</time>
+			<username>admin@192.168.200.1 (Local Database)</username>
+		</updated>
+		<created>
+			<time>1733820963</time>
+			<username>admin@192.168.200.1 (Local Database)</username>
+		</created>
+	</rule>
+	<rule>
+		<id/>
+		<tracker>1728041830</tracker>
+		<type>pass</type>
+		<interface>lan</interface>
+		<ipprotocol>inet</ipprotocol>
+		<tag/>
+		<tagged/>
+		<max/>
+		<max-src-nodes/>
+		<max-src-conn/>
+		<max-src-states/>
+		<statetimeout/>
+		<statetype>keep state</statetype>
+		<os/>
+		<protocol>tcp</protocol>
+		<destination><address>192.168.200.0/24</address>
+		</destination><source><address>192.168.100.0/24</address>
+			<port>5722</port>
+		</source><descr>DFSR MUL to STG</descr>
+		<updated>
+			<time>1728041830</time>
+			<username>admin@192.168.100.1 (Local Database)</username>
+		</updated>
+		<created>
+			<time>1728041830</time>
+			<username>admin@192.168.100.1 (Local Database)</username>
+		</created>
+	</rule>
+	<rule>
+		<id/>
+		<tracker>1728041780</tracker>
+		<type>pass</type>
+		<interface>lan</interface>
+		<ipprotocol>inet</ipprotocol>
+		<tag/>
+		<tagged/>
+		<max/>
+		<max-src-nodes/>
+		<max-src-conn/>
+		<max-src-states/>
+		<statetimeout/>
+		<statetype>keep state</statetype>
+		<os/>
+		<protocol>tcp/udp</protocol>
+		<destination><address>192.168.100.0/24</address>
+		</destination><source><address>192.168.100.0/24</address>
+			<port>3389</port>
+		</source><descr>RDS</descr>
+		<updated>
+			<time>1728041780</time>
+			<username>admin@192.168.100.1 (Local Database)</username>
+		</updated>
+		<created>
+			<time>1728041780</time>
+			<username>admin@192.168.100.1 (Local Database)</username>
+		</created>
+	</rule>
+	<rule>
+		<id/>
+		<tracker>1733820948</tracker>
+		<type>pass</type>
+		<interface>lan</interface>
+		<ipprotocol>inet</ipprotocol>
+		<tag/>
+		<tagged/>
+		<max/>
+		<max-src-nodes/>
+		<max-src-conn/>
+		<max-src-states/>
+		<statetimeout/>
+		<statetype>keep state</statetype>
+		<os/>
+		<protocol>tcp/udp</protocol>
+		<destination><address>192.168.100.0/24</address>
+		</destination><source><address>192.168.200.0/24</address>
+			<port>3389</port>
+		</source><descr>RDS</descr>
+		<updated>
+			<time>1733820948</time>
+			<username>admin@192.168.200.1 (Local Database)</username>
+		</updated>
+		<created>
+			<time>1733820948</time>
+			<username>admin@192.168.200.1 (Local Database)</username>
+		</created>
+	</rule>
+	<rule>
+		<id/>
+		<tracker>1728041729</tracker>
+		<type>pass</type>
+		<interface>lan</interface>
+		<ipprotocol>inet</ipprotocol>
+		<tag/>
+		<tagged/>
+		<max/>
+		<max-src-nodes/>
+		<max-src-conn/>
+		<max-src-states/>
+		<statetimeout/>
+		<statetype>keep state</statetype>
+		<os/>
+		<protocol>tcp/udp</protocol>
+		<destination><address>192.168.200.0/24</address>
+		</destination><source><address>192.168.100.0/24</address>
+			<port>3389</port>
+		</source><descr>RDS MUL to STG</descr>
+		<updated>
+			<time>1728041729</time>
+			<username>admin@192.168.100.1 (Local Database)</username>
+		</updated>
+		<created>
+			<time>1728041729</time>
+			<username>admin@192.168.100.1 (Local Database)</username>
+		</created>
+	</rule>
+	<rule>
+		<id/>
+		<tracker>1728041631</tracker>
+		<type>pass</type>
+		<interface>lan</interface>
+		<ipprotocol>inet</ipprotocol>
+		<tag/>
+		<tagged/>
+		<max/>
+		<max-src-nodes/>
+		<max-src-conn/>
+		<max-src-states/>
+		<statetimeout/>
+		<statetype>keep state</statetype>
+		<os/>
+		<protocol>tcp</protocol>
+		<destination><address>192.168.100.1</address>
+		</destination><source><address>192.168.100.3</address>
+			<port>3260</port>
+		</source><descr>iSCSI SRV to NAS</descr>
+		<updated>
+			<time>1728041631</time>
+			<username>admin@192.168.100.1 (Local Database)</username>
+		</updated>
+		<created>
+			<time>1728041631</time>
+			<username>admin@192.168.100.1 (Local Database)</username>
+		</created>
+	</rule>
+	<rule>
+		<id/>
+		<tracker>1728041582</tracker>
+		<type>pass</type>
+		<interface>lan</interface>
+		<ipprotocol>inet</ipprotocol>
+		<tag/>
+		<tagged/>
+		<max/>
+		<max-src-nodes/>
+		<max-src-conn/>
+		<max-src-states/>
+		<statetimeout/>
+		<statetype>keep state</statetype>
+		<os/>
+		<protocol>tcp</protocol>
+		<destination><address>192.168.100.3</address>
+		</destination><source><address>192.168.100.1</address>
+			<port>3260</port>
+		</source><descr>iSCSI NAS to SRV</descr>
+		<updated>
+			<time>1728041582</time>
+			<username>admin@192.168.100.1 (Local Database)</username>
+		</updated>
+		<created>
+			<time>1728041582</time>
+			<username>admin@192.168.100.1 (Local Database)</username>
+		</created>
+	</rule>
+	<rule>
+		<id/>
+		<tracker>1728041440</tracker>
+		<type>pass</type>
+		<interface>lan</interface>
+		<ipprotocol>inet</ipprotocol>
+		<tag/>
+		<tagged/>
+		<max/>
+		<max-src-nodes/>
+		<max-src-conn/>
+		<max-src-states/>
+		<statetimeout/>
+		<statetype>keep state</statetype>
+		<os/>
+		<protocol>tcp/udp</protocol>
+		<destination><address>192.168.100.0/24</address>
+		</destination><source><any/>
+			<port>443</port>
+		</source><descr>HTTPS</descr>
+		<created>
+			<time>1728041440</time>
+			<username>admin@192.168.100.1 (Local Database)</username>
+		</created>
+		<updated>
+			<time>1733317536</time>
+			<username>admin@192.168.100.1 (Local Database)</username>
+		</updated>
+	</rule>
+	<rule>
+		<id/>
+		<tracker>1728041414</tracker>
+		<type>pass</type>
+		<interface>lan</interface>
+		<ipprotocol>inet</ipprotocol>
+		<tag/>
+		<tagged/>
+		<max/>
+		<max-src-nodes/>
+		<max-src-conn/>
+		<max-src-states/>
+		<statetimeout/>
+		<statetype>keep state</statetype>
+		<os/>
+		<protocol>tcp</protocol>
+		<destination><address>192.168.100.0/24</address>
+		</destination><source><any/>
+			<port>80</port>
+		</source><descr>HTTP</descr>
+		<updated>
+			<time>1728041414</time>
+			<username>admin@192.168.100.1 (Local Database)</username>
+		</updated>
+		<created>
+			<time>1728041414</time>
+			<username>admin@192.168.100.1 (Local Database)</username>
+		</created>
+	</rule>
+	<rule>
+		<id/>
+		<tracker>1733317272</tracker>
+		<type>pass</type>
+		<interface>lan</interface>
+		<ipprotocol>inet</ipprotocol>
+		<tag/>
+		<tagged/>
+		<max/>
+		<max-src-nodes/>
+		<max-src-conn/>
+		<max-src-states/>
+		<statetimeout/>
+		<statetype>keep state</statetype>
+		<os/>
+		<protocol>udp</protocol>
+		<destination><address>0.0.0.0</address>
+		</destination><source><address>255.255.255.255</address>
+			<port>67</port>
+		</source><descr>DHCP</descr>
+		<created>
+			<time>1733317272</time>
+			<username>EasyRule</username>
+		</created>
+		<updated>
+			<time>1733317293</time>
+			<username>admin@192.168.100.1 (Local Database)</username>
+		</updated>
+	</rule>
+	<rule>
+		<id/>
+		<tracker>1733317637</tracker>
+		<type>pass</type>
+		<interface>lan</interface>
+		<ipprotocol>inet</ipprotocol>
+		<tag/>
+		<tagged/>
+		<max/>
+		<max-src-nodes/>
+		<max-src-conn/>
+		<max-src-states/>
+		<statetimeout/>
+		<statetype>keep state</statetype>
+		<os/>
+		<protocol>udp</protocol>
+		<destination><address>192.168.100.0/24</address>
+		</destination><source><address>192.168.100.0/24</address>
+			<port>138</port>
+		</source><descr>NetBIOS</descr>
+		<created>
+			<time>1733317637</time>
+			<username>EasyRule</username>
+		</created>
+		<updated>
+			<time>1733317680</time>
+			<username>admin@192.168.100.1 (Local Database)</username>
+		</updated>
+	</rule>
+	<rule>
+		<id/>
+		<tracker>1733820892</tracker>
+		<type>pass</type>
+		<interface>lan</interface>
+		<ipprotocol>inet</ipprotocol>
+		<tag/>
+		<tagged/>
+		<max/>
+		<max-src-nodes/>
+		<max-src-conn/>
+		<max-src-states/>
+		<statetimeout/>
+		<statetype>keep state</statetype>
+		<os/>
+		<protocol>udp</protocol>
+		<destination><address>192.168.100.0/24</address>
+		</destination><source><address>192.168.200.0/24</address>
+			<port>138</port>
+		</source><descr>NetBIOS</descr>
+		<updated>
+			<time>1733820892</time>
+			<username>admin@192.168.200.1 (Local Database)</username>
+		</updated>
+		<created>
+			<time>1733820892</time>
+			<username>admin@192.168.200.1 (Local Database)</username>
+		</created>
+	</rule>
+	<rule>
+		<id/>
+		<tracker>1733318330</tracker>
+		<type>pass</type>
+		<interface>lan</interface>
+		<ipprotocol>inet</ipprotocol>
+		<tag/>
+		<tagged/>
+		<max/>
+		<max-src-nodes/>
+		<max-src-conn/>
+		<max-src-states/>
+		<statetimeout/>
+		<statetype>keep state</statetype>
+		<os/>
+		<protocol>udp</protocol>
+		<destination><address>192.168.100.0/24</address>
+		</destination><source><address>192.168.100.0/24</address>
+			<port>137</port>
+		</source><descr>NetBIOS</descr>
+		<updated>
+			<time>1733318330</time>
+			<username>admin@192.168.100.1 (Local Database)</username>
+		</updated>
+		<created>
+			<time>1733318330</time>
+			<username>admin@192.168.100.1 (Local Database)</username>
+		</created>
+	</rule>
+	<rule>
+		<id/>
+		<tracker>1733820906</tracker>
+		<type>pass</type>
+		<interface>lan</interface>
+		<ipprotocol>inet</ipprotocol>
+		<tag/>
+		<tagged/>
+		<max/>
+		<max-src-nodes/>
+		<max-src-conn/>
+		<max-src-states/>
+		<statetimeout/>
+		<statetype>keep state</statetype>
+		<os/>
+		<protocol>udp</protocol>
+		<destination><address>192.168.100.0/24</address>
+		</destination><source><address>192.168.200.0/24</address>
+			<port>137</port>
+		</source><descr>NetBIOS</descr>
+		<updated>
+			<time>1733820906</time>
+			<username>admin@192.168.200.1 (Local Database)</username>
+		</updated>
+		<created>
+			<time>1733820906</time>
+			<username>admin@192.168.200.1 (Local Database)</username>
+		</created>
+	</rule>
+	<rule>
+		<id/>
+		<tracker>1733318349</tracker>
+		<type>pass</type>
+		<interface>lan</interface>
+		<ipprotocol>inet</ipprotocol>
+		<tag/>
+		<tagged/>
+		<max/>
+		<max-src-nodes/>
+		<max-src-conn/>
+		<max-src-states/>
+		<statetimeout/>
+		<statetype>keep state</statetype>
+		<os/>
+		<protocol>igmp</protocol>
+		<destination><address>192.168.100.0/24</address>
+		</destination><source><any/>
+		</source><descr>IGMP</descr>
+		<created>
+			<time>1733318349</time>
+			<username>EasyRule</username>
+		</created>
+		<updated>
+			<time>1733318452</time>
+			<username>admin@192.168.100.1 (Local Database)</username>
+		</updated>
+	</rule>
+	<rule>
+		<id/>
+		<tracker>1728041314</tracker>
+		<type>block</type>
+		<interface>lan</interface>
+		<ipprotocol>inet</ipprotocol>
+		<tag/>
+		<tagged/>
+		<max/>
+		<max-src-nodes/>
+		<max-src-conn/>
+		<max-src-states/>
+		<statetimeout/>
+		<statetype>keep state</statetype>
+		<os/>
+		<destination><any/>
+		</destination><source><any/>
+		</source><log/>
+		<descr>BLOCK ALL</descr>
+		<created>
+			<time>1728041314</time>
+			<username>admin@192.168.100.1 (Local Database)</username>
+		</created>
+		<updated>
+			<time>1733316373</time>
+			<username>admin@192.168.100.1 (Local Database)</username>
+		</updated>
+	</rule>
+	<rule>
+		<id/>
+		<tracker>1733315211</tracker>
+		<type>pass</type>
+		<interface>enc0</interface>
+		<ipprotocol>inet</ipprotocol>
+		<tag/>
+		<tagged/>
+		<max/>
+		<max-src-nodes/>
+		<max-src-conn/>
+		<max-src-states/>
+		<statetimeout/>
+		<statetype>keep state</statetype>
+		<os/>
+		<source>
+			<address>192.168.100.0/24</address>
+		</source>
+		<destination>
+			<address>192.168.200.0/24</address>
+		</destination>
+		<descr>AUTO 192.168.100.0 &amp;gt; 192.168.200.0</descr>
+		<updated>
+			<time>1733315211</time>
+			<username>admin@192.168.100.1 (Local Database)</username>
+		</updated>
+		<created>
+			<time>1733315211</time>
+			<username>admin@192.168.100.1 (Local Database)</username>
+		</created>
+	</rule>
+	<rule>
+		<id/>
+		<tracker>1727035307</tracker>
+		<type>pass</type>
+		<interface>enc0</interface>
+		<ipprotocol>inet</ipprotocol>
+		<tag/>
+		<tagged/>
+		<max/>
+		<max-src-nodes/>
+		<max-src-conn/>
+		<max-src-states/>
+		<statetimeout/>
+		<statetype>keep state</statetype>
+		<os/>
+		<source>
+			<address>192.168.200.0/24</address>
+		</source>
+		<destination>
+			<address>192.168.100.0/24</address>
+		</destination>
+		<descr>AUTO 192.168.200.0</descr>
+		<updated>
+			<time>1727035307</time>
+			<username>admin@192.168.100.1 (Local Database)</username>
+		</updated>
+		<created>
+			<time>1727035307</time>
+			<username>admin@192.168.100.1 (Local Database)</username>
+		</created>
+	</rule>
+	<separator>
+		<enc0/>
+		<lan/>
+	</separator>
+</filter>
